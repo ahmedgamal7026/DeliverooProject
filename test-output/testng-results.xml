@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4957" started-at="2022-01-06T15:41:00Z" finished-at="2022-01-06T15:41:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4957" started-at="2022-01-06T15:41:00Z" finished-at="2022-01-06T15:41:05Z">
+      <class name="Tests.SearchWithInvalidAddressFieldValidation">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:Tests.SearchWithInvalidAddressFieldValidation@1753acfe]" name="Setup" is-config="true" duration-ms="10259" started-at="2022-01-06T17:40:50Z" finished-at="2022-01-06T17:41:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="CheckingSearchFieldValidaion(java.lang.String)[pri:0, instance:Tests.SearchWithInvalidAddressFieldValidation@1753acfe]" name="CheckingSearchFieldValidaion" duration-ms="4096" started-at="2022-01-06T17:41:01Z" data-provider="data" finished-at="2022-01-06T17:41:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing with invalid address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckingSearchFieldValidaion -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Tests.SearchWithInvalidAddressFieldValidation@1753acfe]" name="TearDown" is-config="true" duration-ms="1293" started-at="2022-01-06T17:41:05Z" finished-at="2022-01-06T17:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Tests.SearchWithInvalidAddressFieldValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
