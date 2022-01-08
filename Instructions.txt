@@ -1,0 +1,12 @@
+1.	Clone project from GIT
+2.	Download and setup JDK 1.5
+3.	Download and setup The IDE Like Eclipse
+4.	import the project to the IDE
+5.	install maven integration for the IDE from the Market place
+6.	install TestNG for the IDE from the Market place
+7.	update maven project
+8.	Expand the project 
+9.	expand src/test/java
+10.	expand Tests package to find all the Test scripts
+11.	Right click on the needed testcase-->Run as-->TestNG test
+12.	Note:run any test Case Except TestBase
